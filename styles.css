@@ -1,0 +1,17 @@
+h1 {
+    animation-duration: 8s;
+    animation-name: slideout;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideout {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 1175px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
